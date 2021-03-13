@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+        <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningLevel>5</WarningLevel>
+        <LangVersion>9.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Copyright>© Ultima Labs Pty Ltd, 2016 - 2021. All Rights Reserved.</Copyright>
+        <PackageProjectUrl>https://ultima-labs.com.au/</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIcon>PackageIcon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/ultima-labs/essentials</RepositoryUrl>
+        <RepositoryType>Github</RepositoryType>
+        <PackageTags>Ultima Labs</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Compile Include="..\Shared\PackageInfo.cs" />
+        <None Include="..\Shared\PackageIcon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+</Project>
