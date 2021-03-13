@@ -25,4 +25,12 @@
         <None Include="..\Shared\PackageIcon.png" Pack="true" PackagePath="" />
     </ItemGroup>
 
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2020.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\UltimaLabs.Repository.Abstractions\UltimaLabs.Repository.Abstractions.csproj" />
+    </ItemGroup>
+
 </Project>
